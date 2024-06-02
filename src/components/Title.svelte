@@ -1,7 +1,8 @@
 <script lang="ts">
-  export const title = "Hello World!!!!!!";
+  export let title;
 </script>
 
-<h1 class="text-4xl text-center underline text-orange-50">
+<h1 class="text-4xl text-center text-orange-50 p-10">
   {title}
 </h1>
+
